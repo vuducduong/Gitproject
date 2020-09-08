@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Sothich</title>
+    <style>
+        h2{
+            background-color: coral;
+            background-size: 100%;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 <style>
-    h2 {color: cornflowerblue}
+    h2 {color: aliceblue }
+    h4{color: cornflowerblue}
 </style>
 <form method="get" action="simpleform.html">
+    <fieldset style ="width:700px;">
     <h2>SỞ THÍCH CỦA BẠN</h2>
-    Họ và tên <input type="text" name="yourname"><br>
-            <br>email <input type="text" name="email"><br><br>
-    Sở thích
+    <h4>Họ và tên</h4><input type="text" name="yourname"><br>
+        <br><h4>email</h4><input type="text" name="email"><br><br>
+        <h4>Sở thích</h4>
     <input type="checkbox" name="hobby" value="Thể thao"> Thể thao
     <input type="checkbox" name="hobby" value="Âm nhạc"> Âm nhạc
     <input type="checkbox" name="hobby" value="Đọc sách"> Đọc sách
@@ -22,6 +31,7 @@
     <br><input type="checkbox" name="hobby" value="Du lịch"> Du lịch
     <br><input type="submit" value="Gửi thông tin lại">
     <input type="reset" value="nhập lại">
+        </fieldset>
 </form>
 </body>
 </html>
